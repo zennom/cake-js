@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>UC14 - JavaScript</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Hepta+Slab:400,700|Lato:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="models">
+        <div class="cake-item">
+            <a href="">
+                <div class="cake-item--img"><img src="" /></div>
+                <div class="cake-item--add">+</div>
+            </a>
+            <div class="cake-item--price">R$ --</div>
+            <div class="cake-item--name">--</div>
+            <div class="cake-item--desc">--</div>
+        </div>
+        <div class="cart--item">
+            <img src="" />
+            <div class="cart--item-nome">--</div>
+            <div class="cart--item--qtarea">
+                <button class="cart--item-qtmenos">-</button>
+                <div class="cart--item--qt">1</div>
+                <button class="cart--item-qtmais">+</button>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="menu-openner"><span>0</span>🛒</div>
+    </header>
+    <main>
+        <h1>Bolos</h1>
+        <div class="cake-area"></div>
+    </main>
+    <aside>
+        <div class="cake--area">
+            <div class="menu-closer">❌</div>
+            <h1>Seus Bolos</h1>
+            <div class="cart"></div>
+            <div class="cart--details">
+                <div class="cart--totalitem subtotal">
+                    <span>Subtotal</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem desconto">
+                    <span>Desconto (-10%)</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem total big">
+                    <span>Total</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--finalizar">Finalizar a compra</div>
+            </div>
+        </div>
+    </aside>
+    <div class="cakeWindowArea">
+        <div class="cakeWindowBody">
+            <div class="cakeInfo--cancelMobileButton">Voltar</div>
+            <div class="cakeBig">
+                <img src="" />
+            </div>
+            <div class="cakeInfo">
+                <h1>--</h1>
+                <div class="cakeInfo--desc">--</div>
+                <div class="cakeInfo--sizearea">
+                    <div class="cakeInfo--sector">Tamanho</div>
+                    <div class="cakeInfo--sizes">
+                        <div data-key="0" class="cakeInfo--size">PEQUENO <span>--</span></div>
+                        <div data-key="1" class="cakeInfo--size">MÉDIO <span>--</span></div>
+                        <div data-key="2" class="cakeInfo--size selected">GRANDE <span>--</span></div>
+                    </div>
+                </div>
+                <div class="cakeInfo--pricearea">
+                    <div class="cakeInfo--sector">Preço</div>
+                    <div class="cakeInfo--price">
+                        <div class="cakeInfo--actualPrice">R$ --</div>
+                        <div class="cakeInfo--qtarea">
+                            <button class="cakeInfo--qtmenos">-</button>
+                            <div class="cakeInfo--qt">1</div>
+                            <button class="cakeInfo--qtmais">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cakeInfo--addButton">Adicionar ao carrinho</div>
+                <div class="cakeInfo--cancelButton">Cancelar</div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="cake.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
